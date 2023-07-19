@@ -8,9 +8,6 @@
 .right-side {
     flex: 1;
     margin-left: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
 }
 .lined-table {
     border-collapse: collapse;
