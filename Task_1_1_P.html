@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- External stylesheet -->
     <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- Internal styles -->
     <style>
         body {
             background-color:olivedrab;
@@ -16,96 +18,83 @@
             font-family: verdana;
             font-size: 20px;
         }
-
     </style>
-
 </head>
-
-
 <body>
-
+<!-- Main heading -->
 <h1>
     Task 1.1P - Cameron Crabb - 221179651
 </h1>
-<p style ="color:darkred; text-align: center;", >
+<!-- Introductory paragraph -->
+<p style ="color:darkred; text-align: center;" >
     This website displays my task 1.1P submission.
 </p>
 
-
+<!-- Container for table and image -->
 <div class ="table-and-image-container">
-   <div class="left-side">
-    <p class = "description-paragraph" style = "color: blue; font-weight: bold;"> 
-        The below table is a ranked list of my top 
-        5 favourite book series and their authors.
-    </p>
-    <table class = "lined-table">
-        <tr>
-            <th>Ranking</th>
-            <th>Series Name</th>
-            <th>Author</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Mistborn</td>
-            <td>Brandon Sanderson</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Stormlight Archive</td>
-            <td>Brandon Sanderson</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Skulduggery Pleasant</td>
-            <td>Derek Landy</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Riftwar Saga</td>
-            <td>Raymond E. Feist</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>Demon Cycle</td>
-            <td>Peter V. Brett</td>
-        </tr>
-    </table>
-   </div>
-   <div class="right-side">
-    <p class ="description-paragraph" style = 'color: goldenrod; font-style: italic;'>
-        The following image is of a golden retriever, because dogs are great.
-    </p>
-    <img src="https://www.dailypaws.com/thmb/DQfQglzyKWlVSlsDwKPprF2iMSg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/golden-retriever-177213599-2000-a30830f4d2b24635a5d01b3c5c64b9ef.jpg" class= "image-restriction">
-    <a href = https://www.dailypaws.com/dogs-puppies/dog-breeds/golden-retriever target = "_blank">
-        Image Source: https://www.dailypaws.com/dogs-puppies/dog-breeds/golden-retriever
-    </a>
-
-   </div>
-   
-    
+    <!-- Left side of the container -->
+    <div class="left-side">
+        <!-- Paragraph describing the table -->
+        <p class="description-paragraph" style="color: blue; font-weight: bold;">
+            The below table is a ranked list of my top 
+            5 favourite book series and their authors.
+        </p>
+        <!-- Table displaying book series and authors -->
+        <table class="lined-table">
+            <tr>
+                <th>Ranking</th>
+                <th>Series Name</th>
+                <th>Author</th>
+            </tr>
+            <!-- Table rows with book series and author details -->
+            <tr>
+                <td>1</td>
+                <td>Mistborn</td>
+                <td>Brandon Sanderson</td>
+            </tr>
+            <!-- More table rows -->
+            <!-- ... -->
+        </table>
+    </div>
+    <!-- Right side of the container -->
+    <div class="right-side">
+        <!-- Paragraph describing the image -->
+        <p class="description-paragraph" style='color: goldenrod; font-style: italic;'>
+            The following image is of a golden retriever, because dogs are great.
+        </p>
+        <!-- Image of a golden retriever -->
+        <img src="https://www.dailypaws.com/thmb/DQfQglzyKWlVSlsDwKPprF2iMSg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/golden-retriever-177213599-2000-a30830f4d2b24635a5d01b3c5c64b9ef.jpg" class="image-restriction">
+        <!-- Image source link -->
+        <a href="https://www.dailypaws.com/dogs-puppies/dog-breeds/golden-retriever" target="_blank">
+            Image Source: https://www.dailypaws.com/dogs-puppies/dog-breeds/golden-retriever
+        </a>
+    </div>
 </div>
 
-<div class = "left-side">
-    <p class = "description-paragraph"> 
+<!-- Another form container -->
+<div class="left-side">
+    <!-- Paragraph for form instructions -->
+    <p class="description-paragraph"> 
         Hello Visitor! Enter your information below:
     </p>
-   <div class = "form-box">
-    <form id="simpleForm">
-        <label for="nameInput">Name:</label>
-        <input type="text" id="nameInput" required><br>
-    
-        <label for="ageInput">Age:</label>
-        <input type="number" id="ageInput" required><br>
-    
-        <label for="colorInput">Favorite Color:</label>
-        <input type="text" id="colorInput" required><br>
-    
-        <button type="submit">Submit</button>
-      </form>
-   </div>
+    <!-- Form for visitor input -->
+    <div class="form-box">
+        <form id="simpleForm">
+            <!-- Form fields -->
+            <label for="nameInput">Name:</label>
+            <input type="text" id="nameInput" required><br>
+        
+            <label for="ageInput">Age:</label>
+            <input type="number" id="ageInput" required><br>
+        
+            <label for="colorInput">Favorite Color:</label>
+            <input type="text" id="colorInput" required><br>
+        
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </div>
-
-
-  
 </body>
 </html>
+
+

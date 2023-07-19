@@ -1,43 +1,53 @@
+/* Styles for the container holding the table and image side by side */
 .table-and-image-container {
     display: flex;
-    }
+}
+
+/* Styles for the left side (table side) of the container */
 .left-side {
     flex: 1;
     margin-right: 20px;
 }
+
+/* Styles for the right side (image side) of the container */
 .right-side {
     flex: 1;
     margin-left: 20px;
 }
+
+/* Styles for the table with lines separating rows and columns */
 .lined-table {
     border-collapse: collapse;
     width: 80%;
-    }
+}
 
+/* Styles for table headers and table data cells */
 .lined-table th, .lined-table td {
     border: 1px solid blue;
     padding: 8px;
-    }
+}
 
+/* Styles for description paragraphs */
 .description-paragraph {
     margin-bottom: 10px;
     text-align: left;
     width: 80%;
     word-break: break-word;
-    }
+}
 
+/* Styles for images within the container */
 .image-restriction {
-    display:block;
+    display: block;
     margin: auto 0;
     max-width: 300px;
     max-height: 200px;
 }
 
+/* Styles for the form container */
 .form-box {
     width: 300px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: dodgerblue;
-  }
-    
+    background-color: darkred;
+}
